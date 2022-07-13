@@ -1,0 +1,29 @@
+header {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(3, 35, 108, 1) 54%, rgba(3, 35, 108, 1) 100%);
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.headerPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerPrincipal img {
+    width: 300px;
+}
+
+.headerPrincipal h1 {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.headerPrincipal p {
+    font-size: 10px;
+    font-weight: 300;
+}

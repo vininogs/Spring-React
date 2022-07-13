@@ -1,10 +1,10 @@
-import iconNotificar from '../../assets/img/notification-icon.svg'
+import icon from '../../assets/img/notification-icon.svg'
 import './styles.css'
 
 function NotificationButton() {
     return(
       <div className='iconNotificar'>
-        <img src={iconNotificar} alt="Notificar"/>
+        <img src={icon} alt="Notificar"/>
       </div>
     )
   }

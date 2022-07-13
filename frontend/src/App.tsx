@@ -1,12 +1,17 @@
-import NotificationButton from "./compenents/NotificationButton"
-import iconNotificar from "./assets/img/notification-icon.svg"
+import Header from "./compenents/header"
+import SalesCard from "./compenents/SalesCard"
 
 function App() {
   return(
     <>
-   <h1>crud</h1>
-   <NotificationButton/>
-   <NotificationButton/>
+   <Header/>
+    <main>
+      <section id="sales">
+        <div className="Main-container">
+          <SalesCard/>
+        </div>
+      </section>
+    </main>
    </>
   )
 }
